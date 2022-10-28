@@ -3,6 +3,16 @@ This repository contains the source code for the [Processing](https://processing
 If you're interested in *using* Processing, get started at the [download](https://processing.org/download) page, or read more about the project at the [home page](https://processing.org/). There are also several [tutorials](https://processing.org/tutorials) that provide a helpful introduction. They are complemented by hundreds of examples that are included with the software itself.
 
 
+# Maven compilation 
+
+How to install locally to use it with Maven:
+``` bash 
+cd core
+mvn install 
+cd ../build 
+mvn install
+```
+
 # Processing 4.0
 
 Processing 4 has [important updates](https://github.com/processing/processing4/wiki/Changes-in-4.0) that prepare the platform for its future. Most significantly, this includes the move to Java 17 as well as major changes to the range of platforms we support (Apple Silicon! Raspberry Pi on 32- and 64-bit ARM!)
