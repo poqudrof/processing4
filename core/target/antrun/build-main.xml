@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <ant antfile="build.xml" target="build" />
+    <copy todir="target/classes/">
+      <fileset dir="bin/" />
+    </copy>
+  </target>
+</project>
