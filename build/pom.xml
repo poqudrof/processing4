@@ -127,14 +127,21 @@
     </scm> 
     
     <distributionManagement>
-        <snapshotRepository>
+        <!-- <snapshotRepository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/content/repositories/snapshots</url>
         </snapshotRepository>
         <repository>
             <id>ossrh</id>
             <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
-        </repository>
+        </repository> -->
+
+      <repository>
+        <id>natar-repository</id>
+        <url>https://repo.natar.fr/releases</url>
+      </repository>
+    
+
     </distributionManagement>
     
     <modules>
