@@ -137,7 +137,8 @@
         </repository> -->
 
       <repository>
-        <id>natar-repository</id>
+        <id>natar-io</id>
+        <name>Natar and PapARt repository</name>
         <url>https://repo.natar.fr/releases</url>
       </repository>
     
